@@ -3,11 +3,11 @@ $(document).ready(function(){
 
       //hide questions and results untill player start game
         $("#result").hide();
-        $("#questions").hide();
+        $(".questions").hide();
         $("#image").hide();
         //start game 
         $("#start").click(function(){
-                $("#questions").show();
+                $(".questions").show();
                 $("h1").hide();
                 $("h5").hide();
                 $('.container').css("background-color","white")
@@ -28,14 +28,16 @@ $(document).ready(function(){
                                       }
                    if (counter === 0) {
                         $("#result").show();
-                        $("#image").show();
                         $("h1").show();
-                        $("body").css("background-color","black")
-                        $('.main-container').css("background-color","black")
-                        $('.container').css("background-color","black")
+                        $("h1").css("color","yellowgreen");
+                        $("h1").css("text-align","left")
+                        $("body").css("background-color","black");
+                        $('.jambotron').css("background-color","black");
+                        $("body").css("background-image","none");
+                        $('.main-container').css("background-color","black");
                         $("#timer").hide();
                          $("#start2").show();
-                      $("#questions").hide();
+                      $(".questions").hide();
                       clearInterval(counter);
                     }
                   }, 1000);

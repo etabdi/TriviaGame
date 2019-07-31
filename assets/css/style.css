@@ -1,22 +1,13 @@
 
   body{width:950px;
     height:800auto;
-
-background-color:white;
-  }
+    background-image: url("../images/image2.jpg");
+    background-repeat: no-repeat;
+    }
 
 .container{
   
     margin:20px 50px 0px 100px;
-   
-    width:auto;
-    height:auto;
-    float: center;
-    float: center;
-    text-align: center;
-    padding:30px 100px 30px 100px;
-    border-color:10px black;
-
 }
 
 #game{
@@ -44,9 +35,18 @@ h4{
 font-size: 26px;
 
 }
-#questions{
+.questions{
 
   font-size:18px;
+  background-color:blue;
+  color: white;
+  width:auto;
+  height:400px;
+  overflow-y: scroll;
+  float:center;
+  text-align: left;
+  padding:20px;
+  margin: 100px 0 0 300px;
 }
  h3{
    font-size: 36px;
@@ -56,13 +56,14 @@ font-size: 26px;
     }
 
     .main-container{
-      background-color:rgb(3, 36, 63);
+       width: 400px;
       padding:50px;
       float:center;
     }
     h1{
       font-size:80px;
-      color:yellowgreen;
+      color:rgb(13, 14, 12);
+      text-align: center;
       
 
     }
@@ -75,7 +76,6 @@ font-size: 26px;
 
     }
     .jumbotron{
-
       margin:0px 0px 0px 100px;
       width:1260px;
       height:700px;
@@ -97,24 +97,22 @@ font-size: 26px;
       padding:20px 40px 20px 40px ;
       cursor: pointer;
     }
-    #questions{
-      text-align:left;
-      overflow: hidden;
-
-  }
+    
   #head{
     font-size:26px;
-    color:blue;
+    color:rgb(136, 255, 0);
     text-align: center;
+    background-color: blue;
+    padding:10px 50px 10px 50px;
 
   }
   h5{
  
- color:rgb(238, 243, 229);
- background-color: black;
+ color:black;
+ 
  font-size:26px;
  float:center;
- padding:20px 100px 20px 100px;
+ padding:auto;
 
  
   }
@@ -133,4 +131,10 @@ font-size: 26px;
     cursor: pointer;
 
     
+  }
+
+  #timer{
+
+    font-size: 36px;
+    text-align: center;
   }
