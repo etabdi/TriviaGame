@@ -38,9 +38,9 @@ font-size: 26px;
 .questions{
 
   font-size:18px;
-  background-color:blue;
+  background-color: #4aaaa5;
   color: white;
-  width:auto;
+  width:600px;
   height:400px;
   overflow-y: scroll;
   float:center;
@@ -69,10 +69,13 @@ font-size: 26px;
     }
     #start{
       font-size: 36px;
-      background-color:rgb(15, 15, 231);
+      background-color: #4aaaa5;;
       cursor: pointer;
       color: rgb(239, 255, 196);
       padding:20px 40px 20px 40px ;
+      position:fixed;
+      left:600px;
+      bottom:150px;
 
     }
     .jumbotron{
@@ -99,10 +102,10 @@ font-size: 26px;
     }
     
   #head{
-    font-size:26px;
+    font-size:36px;
+    font-style: oblique;
     color:rgb(136, 255, 0);
     text-align: center;
-    background-color: blue;
     padding:10px 50px 10px 50px;
 
   }
@@ -111,7 +114,9 @@ font-size: 26px;
  color:black;
  
  font-size:26px;
- float:center;
+ position:fixed;
+ width:400px;
+ right:600px;
  padding:auto;
 
  
@@ -134,7 +139,12 @@ font-size: 26px;
   }
 
   #timer{
-
+    position: absolute;
+    font-weight: bold;
+    color: rgb(5, 1, 17);
+    left:600px;
+    padding:20px;
+    top:20px;
     font-size: 36px;
     text-align: center;
   }
