@@ -20,12 +20,17 @@ $(document).ready(function(){
             $("#start").click( function(){
                 $("#start").hide();
             // Game timer count down 
+
+
         var counter =30;
+              // set timer for 30 min
      setInterval(function() {
                   counter--;
                    if (counter >= 0) {
                      $("#timer").text("Time Remaining:"+counter)
                                       }
+
+                        //Game results 
                    if (counter === 0) {
                         $("#result").show();
                         $("h1").show();
@@ -72,13 +77,13 @@ $(document).ready(function(){
                 
                 });
                 // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+        window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
 
     });

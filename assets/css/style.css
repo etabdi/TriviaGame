@@ -3,6 +3,10 @@
     height:800auto;
     background-image: url("../images/image2.jpg");
     background-repeat: no-repeat;
+    font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+
     }
 
 .container{
@@ -64,6 +68,9 @@ font-size: 26px;
       font-size:80px;
       color:rgb(13, 14, 12);
       text-align: center;
+      font-family: 'Tangerine', serif;
+      text-shadow: 4px 4px 4px #aaa;
+    
       
 
     }
@@ -103,16 +110,18 @@ font-size: 26px;
     
   #head{
     font-size:36px;
-    font-style: oblique;
+    font-style: unset;
     color:rgb(136, 255, 0);
     text-align: center;
     padding:10px 50px 10px 50px;
 
   }
+
+  
   h5{
  
  color:black;
- 
+ font-family: 'Tangerine', serif; 
  font-size:26px;
  position:fixed;
  width:400px;
@@ -140,11 +149,12 @@ font-size: 26px;
 
   #timer{
     position: absolute;
-    font-weight: bold;
-    color: rgb(5, 1, 17);
+    font-weight: bolder;
+    color:blue;
     left:600px;
     padding:20px;
     top:20px;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
+
   }

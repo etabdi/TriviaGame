@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--jquery link-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link rel="stylesheet"type="text/css" href="assets/css/style.css">
 
     <title>Document</title>
@@ -14,16 +15,18 @@
    
      <div id="timer"></div>
          <h1>Trivia Game</h1>
+             <!--Introdation note-->
                     <h5>Are you an animal lover?
                             Do you think you're pretty clued up when it comes to the natural world? 
                             Then give these animal trivia questions and answers a try and see how you do.</h5>
 
                 
                 <button id="start">Start Game </button>
- 
+                        
+            <!--Lists of questions-->
         
          <div class="questions">
-                    <div id="head"> - Animal Trivia Questions & Answers</div>
+                    <div id="head">** Animal Trivia Questions & Answers **</div>
                     
          <hr/>
              <form>
@@ -97,16 +100,17 @@
                 <input name="q1" type="radio" value="ans"/>Platyus &  Anteater <br>
                 <input name="q1" type="radio" value="inc"/>Chicken and birds<br>
                 <hr/>     
-      </form>
-   </div>
-                                              
-          </div>
+            </form>
+        </div>
+                                                    
+    </div>
+              <!--Result display at he end of game-->
                 <div id="result">
                     <h2>ALL DONE!</h2>
                     <hr/>
                     <div class="exp">Correct Answers:0</div>
                     <div class="red">Incorrect Answers:0</div>
-                    <div class="unanswered">unanswered:28</div>
+                    <div class="unanswered">unanswered:10</div>
 
                     <hr/>
                     <button id="start2">Start Game </button> 
@@ -121,9 +125,6 @@
     </div>
    
     
-
-
-
     <script src="assets/javascript/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     
