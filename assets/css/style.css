@@ -31,7 +31,7 @@ font-size:28px;
 padding:30px 200px 30px 200px;
 float:center;
 position: absolute;
-left:130px;
+left:230px;
 top:130px;
 }
 
@@ -157,4 +157,9 @@ font-size: 26px;
     font-size: 40px;
     text-align: center;
 
+  }
+  #image2{
+    position:fixed;
+    right:300px;
+    top:200px;
   }
