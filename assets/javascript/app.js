@@ -49,10 +49,11 @@ $(document).ready(function(){
              });
 
 
-             correct=0;
-             wrong=0;
+             
              $(function () {
-                $('input[name="q1"]').on('click', function() {
+              correct=0;
+              wrong=0;
+                    if(radioValue){
 
                     unanswered=10-(correct+wrong)-1;
 
@@ -61,7 +62,7 @@ $(document).ready(function(){
                     }
                     else{unanswered=0}
 
-
+                  }
                     $(".unanswered").text("Unanswered:"+unanswered)
                     if ($(this).val() == 'ans') {
                         correct++;
@@ -70,12 +71,12 @@ $(document).ready(function(){
                         wrong++;
                         $('.red').text("Incorrect Answers:"+wrong);
                         console.log(correct)
-                        
-                    }
                     
-                })
-                
+                  }
+                    
                 });
+                
+                
                 // When the user scrolls the page, execute myFunction 
         window.onscroll = function() {myFunction()};
 

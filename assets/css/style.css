@@ -1,11 +1,14 @@
 
-  body{width:950px;
-    height:800auto;
+  body{
     background-image: url("../images/image2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Tangerine', serif;
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
+    float:center;
+  right:0px;
 
     }
 
@@ -44,13 +47,14 @@ font-size: 26px;
   font-size:18px;
   background-color: #4aaaa5;
   color: white;
+  border-radius:20px;
   width:600px;
-  height:400px;
+  height:300px;
   overflow-y: scroll;
   float:center;
   text-align: left;
   padding:20px;
-  margin: 100px 0 0 300px;
+  margin: 100px 0 0 400px;
 }
  h3{
    font-size: 36px;
@@ -82,7 +86,7 @@ font-size: 26px;
       padding:20px 40px 20px 40px ;
       position:fixed;
       left:600px;
-      bottom:150px;
+      bottom:100px;
 
     }
     .jumbotron{
@@ -104,12 +108,12 @@ font-size: 26px;
       font-size: 36px;
       background-color:rgb(10, 36, 3);
       color: rgb(196, 255, 235);
-      padding:20px 40px 20px 40px ;
+      padding:20px 40px 0px 40px ;
       cursor: pointer;
     }
     
   #head{
-    font-size:36px;
+    font-size:24px;
     font-style: unset;
     color:rgb(136, 255, 0);
     text-align: center;
