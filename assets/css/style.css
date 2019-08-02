@@ -34,7 +34,7 @@ font-size:28px;
 padding:30px 200px 30px 200px;
 float:center;
 position: absolute;
-left:230px;
+left:20px;
 top:130px;
 }
 
@@ -47,14 +47,22 @@ font-size: 26px;
   font-size:18px;
   background-color: #4aaaa5;
   color: white;
+<<<<<<< HEAD
   border-radius:20px;
   width:600px;
+=======
+  width:500px;
+>>>>>>> 539a312e0a53cef912ebdd755612cec15edf50d2
   height:300px;
   overflow-y: scroll;
   float:center;
   text-align: left;
   padding:20px;
+<<<<<<< HEAD
   margin: 100px 0 0 400px;
+=======
+  margin: 100px 0 0 380px;
+>>>>>>> 539a312e0a53cef912ebdd755612cec15edf50d2
 }
  h3{
    font-size: 36px;
